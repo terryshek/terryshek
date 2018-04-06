@@ -1,7 +1,7 @@
 <template>
   <transition name="custom-classes-transition" enter-active-class="animated fadeInRight" leave-active-class="animated fadeInLeft"
     appear>
-    <section class="techSkill bg-warning p-4 text-light card" id="skill">
+    <section class="techSkill bg-warning p-4 text-light card rounded-0" id="skill">
       <h1 class="card-title">
         <b>SKILLS</b>
       </h1>

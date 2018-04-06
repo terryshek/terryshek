@@ -14,12 +14,12 @@
           <nuxt-link class="nav-link" tag="a" activeClass="active" to="/about" exact>About</nuxt-link>                      
         </li> -->
         <li class="nav-item" :class="{active:link=='profile'}">
-          <a href="#" v-scroll-to="{el:'#profile', onDone: ()=>{link='profile'}, offset: -30}" class="nav-link">
+          <a href="#" v-scroll-to="{el:'#profile', onDone: ()=>{link='profile'}, offset: -40}" class="nav-link">
             About
           </a>
         </li>
         <li class="nav-item" :class="{active:link=='skill'}">
-          <a href="#" v-scroll-to="{el:'#skill', onDone: ()=>{link='skill'}, offset: -30}" class="nav-link">
+          <a href="#" v-scroll-to="{el:'#skill', onDone: ()=>{link='skill'}, offset: -40}" class="nav-link">
             Skill
           </a>
         </li>
@@ -33,13 +33,6 @@
             Education
           </a>
         </li>
-        <!-- <b-nav-item href="/">
-          
-          <!-- <nuxt-link class="nav-link" tag="a" activeClass="active" to="/" exact>All Post</nuxt-link>             -->
-        <!-- </b-nav-item> -->
-        <!-- <b-nav-item href="/about"> -->
-          <!-- <nuxt-link class="nav-link" tag="a" activeClass="active" to="/about" exact>About</nuxt-link>             -->
-        <!-- </b-nav-item> -->
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

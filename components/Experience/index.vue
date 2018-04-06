@@ -10,15 +10,15 @@
       <transition-group class="list-group" name="custom-classes-transition" enter-active-class="animated bounceOutDown" leave-active-class="animated fadeInDown"
         appear tag="div">
 
-        <div class="list-group-item flex-column align-items-start border-0" v-for="(exp, i) in dynamicExp" :key="i" v-if="dynamicExp.length">
+        <div class="list-group-item flex-column align-items-start border-0 p-0" v-for="(exp, i) in dynamicExp" :key="i" v-if="dynamicExp.length">
           <div class="d-flex w-100 justify-content-between">
             <div class="jumbotron jumbotron-fluid w-100 bg-light">
               <div class="container">
                 <div class="display-5">
                   <blockquote class="blockquote">
-                    <ul class="list-group">
-                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center text-dark bg-light">
-                        <h4 class="mb-1 font-weight-bold">{{exp.name}}</h4>
+                    <ul class="list-group p-0">
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center text-dark bg-light p-0">
+                        <h5 class="mb-1 font-weight-bold">{{exp.name}}</h5>
                         <small>
                           <span class="badge badge-warning">{{exp.duration}}</span>
                         </small>

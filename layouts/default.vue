@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-fluid">
     <the-header/>
       <main style="margin:40px auto">
         <nuxt/>      
@@ -20,9 +20,6 @@ import TheFooter from '@/components/TheFooter'
 </script>
 
 <style>
-*{
-  box-sizing: border-box;
-}
 body{
   font-family: sans-serif, "Lato"
 }
